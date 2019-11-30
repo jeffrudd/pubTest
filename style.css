@@ -7,3 +7,38 @@ img{
 .frame1 {
     opacity: 1;
 }
+
+.text1 {
+    opacity: 1;
+}
+
+.text {
+    z-index: 10;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.text4 {
+    top: 20%;
+    left: 50%;
+    
+}
+
+.title4 {
+    top: 10%;
+    left: 50%;
+    
+}
+
+.button4 {
+    top: 85%;
+    left: 60%;
+}
