@@ -1,0 +1,9 @@
+img{
+    position:absolute;
+    opacity:0;
+
+}
+
+.frame1 {
+    opacity: 1;
+}
