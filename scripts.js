@@ -4,7 +4,7 @@ t1.to(".text1", {delay: 1.5, duration: 0.5, opacity: 1})
     .to(".text1", {delay: 3.5, duration: 0.5, opacity: 0})
     .set(".frame1", {opacity: 0})
 
-    .set(".full", {yPercent: -20, xPercent: 20, scale: 1.5, opacity: 1})
+    .set(".full", {yPercent: -38, xPercent:-15, scale: 0.75, opacity: 1})
     .to(".text2", {duration: 0.5, opacity: 1})
 
     .add("motion")
@@ -14,7 +14,7 @@ t1.to(".text1", {delay: 1.5, duration: 0.5, opacity: 1})
 
     
     .to(".text3", {delay: 3, duration: 0, opacity:0})
-    .to(".full", {scale: 0.75, xPercent:-20, duration: 0.5, opacity: 1})
+    .to(".full", {scale: 0.41, xPercent:-36, duration: 0.5, opacity: 1})
 
     .fromTo(".title4", {marginLeft:-800, opacity:0}, {marginLeft:0, opacity:1})
     .fromTo(".title4", {width:0}, {width:255})
