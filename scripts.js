@@ -2,9 +2,14 @@ let t1 = gsap.timeline();
 
 t1.to(".text1", {delay: 1.5, duration: 0.5, opacity: 1})
     .to(".text1", {delay: 3.5, duration: 0.5, opacity: 0})
-    .set(".frame1", {opacity: 0})
 
-    .set(".full", {yPercent: -38, xPercent:-15, scale: 0.75, opacity: 1})
+    .add("fade")
+    .to(".frame1", {duration: 1, opacity:0}, "fade")
+    // .set(".frame1", {opacity: 0})
+    .set(".full", {yPercent: -38, xPercent:-15, scale: 0.75}, "fade")
+    .to(".full, .layer", {opacity: 1, duration: 1}, "fade")
+
+    // .set(".layer", {opacity: 1})
     .to(".text2", {duration: 0.5, opacity: 1})
 
     .add("motion")
