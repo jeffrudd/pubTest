@@ -22,6 +22,10 @@ img{
 }
 
 .text1 {
+    top: 13%;
+}
+
+.text3 {
     top: 12%;
 }
 
@@ -38,7 +42,7 @@ img{
 }
 
 .title4 {
-    top: 8%;
+    top: 10%;
     left: 50%;
 }
 
