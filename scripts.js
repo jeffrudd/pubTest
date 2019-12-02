@@ -1,4 +1,5 @@
 let t1 = gsap.timeline();
+var rule = CSSRulePlugin.getRule("button:before")
 
 t1.to(".text1", {delay: 1, duration: 0.5, opacity: 1})
     .to(".text1", {delay: 3.5, duration: 0.5, opacity: 0})
@@ -23,3 +24,5 @@ t1.to(".text1", {delay: 1, duration: 0.5, opacity: 1})
     .fromTo(".title4", {width:0}, {width:255})
     .to(".text4", {delay: 1, opacity:1})
     .to("button, .buttonText",{delay: 1, opacity: 1})
+    .to(rule, {cssRule: {left: 60}, duration: 0.75})
+    .to(rule, {delay: 0.75, cssRule: {left: -120}, duration: 0.5})
